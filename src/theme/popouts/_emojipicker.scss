@@ -1,24 +1,24 @@
 #app-mount {
 	//Stuff that should ONLY apply to dedicated emoji/sticker/gif picker
-	.drawerSizingWrapper__08434 {
+	._084343c4f11eaaab-drawerSizingWrapper {
 		--frostedglass-emojipicker-header-brightness: 50%;
 
 		right: 0;
 		position: absolute !important;
 
-		.nav__08434 {
+		._084343c4f11eaaab-nav {
 			padding: 0 0 5px 13px;
 			z-index: 999;
 		}
 
-		.navList__08434 {
+		._084343c4f11eaaab-navList {
 			padding-top: 12px;
 		}
 
 		[class*='searchBar'] {
 			background: var(--background-secondary);
 		}
-		.contentWrapper__08434 {
+		._084343c4f11eaaab-contentWrapper {
 			display: grid;
 			border: none;
 			box-shadow: none;
@@ -27,15 +27,15 @@
 			grid-row-gap: 0px;
 			background: transparent;
 		}
-		[aria-selected='true'] .navButton__08434 {
+		[aria-selected='true'] ._084343c4f11eaaab-navButton {
 			background: var(--gradient);
 		}
-		.navButton__08434 {
+		._084343c4f11eaaab-navButton {
 			background: var(--foreground);
 			padding: 6px 5px 7px;
 		}
 		// GIFs
-		.categoryFadeBlurple_d02962 {
+		.d02962a38047ac3c-categoryFadeBlurple {
 			background: var(--gradient-90);
 		}
 		.focused-q9B2e4::after,
@@ -52,9 +52,9 @@
 		//add more padding, i am not sure why it differs greatly from the emoji tab
 		//Watch out with forcing insets though, this could cause spasming and flickering if forced when its JS controlled
 		//Sticker category header ie: Frequently Used, PACK NAME
-		.thin_d125d2 .listItems_affa7e {
+		.d125d22cdfd32cfe-thin .affa7e120767dd82-listItems {
 			left: 0px !important;
-			.row_c6367b {
+			.c6367b0f171ba6d7-row {
 				//Set the padding left just like on emojis
 				margin-left: 8px;
 			}
@@ -62,7 +62,7 @@
 	}
 
 	//Stuff that should only apply to emoji/gif/sticker picker
-	.emojiPicker_c0e32c, .wrapper__8ef02 {
+	.c0e32c5cffed3d9f-emojiPicker, ._8ef02eea17068b73-wrapper {
 		box-shadow: none;
 		background: transparent;
 
@@ -73,7 +73,7 @@
 	}
 
 	//Stuff that should only apply to the super reaction picker
-	.appAsidePanelWrapper_a3002d .layerContainer_da8173 .clickTrapContainer_da8173 .layer_da8173 > div:has(.isBurstReactionPicker_c0e32c) {
+	.a3002d7de5be5280-appAsidePanelWrapper ._59d0d7075b521375-layerContainer ._59d0d7075b521375-clickTrapContainer ._59d0d7075b521375-layer > div:has(.c0e32c5cffed3d9f-isBurstReactionPicker) {
 		//Set back discord stupid super react effect but on a different layer because otherwise we cannot use a proper background
 		box-shadow: 0 0 0 2px var(--bg-brand);
 		border-radius: var(--custom-emoji-picker-border-radius);
@@ -91,13 +91,13 @@
 	}
 
 	//Stuff that should only apply to the reaction picker
-	.appAsidePanelWrapper_a3002d .layerContainer_da8173 .clickTrapContainer_da8173:not(:has(.emojiPickerHasTabWrapper_c0e32c)) #emoji-picker-tab-panel {
-		.categoryList_c0e32c {
+	.a3002d7de5be5280-appAsidePanelWrapper ._59d0d7075b521375-layerContainer ._59d0d7075b521375-clickTrapContainer:not(:has(.c0e32c5cffed3d9f-emojiPickerHasTabWrapper)) #emoji-picker-tab-panel {
+		.c0e32c5cffed3d9f-categoryList {
 			top: 68px;
 		}
 	}
 
-	.isBurstReactionPicker_c0e32c {
+	.c0e32c5cffed3d9f-isBurstReactionPicker {
 		&::before {
 			//Undo discord its .5 opacity
 			opacity: 1;
@@ -105,16 +105,16 @@
 	}
 
 	//Stuff that should apply to reaction AND emoji/gif/sticker picker
-	.emojiPicker_c0e32c,
-	.wrapper__8ef02,
+	.c0e32c5cffed3d9f-emojiPicker,
+	._8ef02eea17068b73-wrapper,
 	#emoji-picker-tab-panel,
-	.drawerSizingWrapper__08434 {
+	._084343c4f11eaaab-drawerSizingWrapper {
 		animation: fadeIn 0.3s ease forwards;
 		[class*='header'] {
 			box-shadow: none;
 		}
 
-		.wrapper__14245, .wrapper__4e6ce {
+		._14245bb948377a25-wrapper, ._0d1eff984b8fd277-wrapper {
 			background: var(--background-secondary);
 			// backdrop-filter: blur(10px) brightness(var(--frostedglass-emojipicker-header-brightness));
 
@@ -126,55 +126,55 @@
 			background: var(--background-secondary);
 		}
 
-		.inspector_aeaaeb {
+		.aeaaeb2a573807f0-inspector {
 			border: none;
 			background: var(--background-secondary);
 			// backdrop-filter: brightness(var(--frostedglass-emojipicker-header-brightness));
 		}
 
-		.emojiPickerHasTabWrapper_c0e32c .categoryList_c0e32c,
-		.categoryList__3ad28 {
+		.c0e32c5cffed3d9f-emojiPickerHasTabWrapper .c0e32c5cffed3d9f-categoryList,
+		._3ad28b0867fa3fad-categoryList {
 			//This crime has to be done because discord thought it was a good idea to create a grid for the elements but have
 			//one of those items live outside of the actual grid and instead absolute/relative position it into a cell
 			//literally why
 			top: 52px;
 		}
 
-		.unicodeShortcut_b9ee0c,
-		.standardStickerShortcut__3ad28 {
+		.b9ee0c229bc0b6bb-unicodeShortcut,
+		._3ad28b0867fa3fad-standardStickerShortcut {
 			border: none;
 			background: var(--background-primary);
 		}
 
-		.categoryList_c0e32c,
-		.categoryList__3ad28 {
+		.c0e32c5cffed3d9f-categoryList,
+		._3ad28b0867fa3fad-categoryList {
 			background: var(--background-secondary);
 			// backdrop-filter: brightness(var(--frostedglass-emojipicker-header-brightness));
 
-			.scroller_affa7e {
+			.affa7e120767dd82-scroller {
 				height: calc(100% - var(--custom-emoji-picker-constants-unicode-category-shortcut-height));
 			}
 		}
 
-		.categoryList_c0e32c:has(.unicodeShortcutInvisible_b9ee0c),
-		.categoryList__3ad28:not(:has(.standardStickerShortcut__3ad28)){
-			.scroller_affa7e {
+		.c0e32c5cffed3d9f-categoryList:has(.b9ee0c229bc0b6bb-unicodeShortcutInvisible),
+		._3ad28b0867fa3fad-categoryList:not(:has(._3ad28b0867fa3fad-standardStickerShortcut)){
+			.affa7e120767dd82-scroller {
 				height: 100%;
 			}
 		}
 
-		.container_fed6d3 {
+		.fed6d32841cc2da2-container {
 			background: var(--background-primary);
 		}
 
-		.header_c0e32c, .header__8ef02, .header_fed6d3 {
+		.c0e32c5cffed3d9f-header, ._8ef02eea17068b73-header, .fed6d32841cc2da2-header {
 			border-radius: 0px;
 			border: none;
 			background: var(--background-secondary);
 			// backdrop-filter: brightness(var(--frostedglass-emojipicker-header-brightness));
 		}
 
-		.header__14245 {
+		._14245bb948377a25-header {
 			background: rgb(0, 0, 0, 0.6);
 			padding: 2px;
 			border-radius: 3px;
@@ -185,17 +185,17 @@
 		}
 
 		// Emoji
-		.emojiItemSelected_fc7141 {
+		.fc7141859aaa98b7-emojiItemSelected {
 			background: var(--foreground-double);
 		}
-		.nav__08434 {
+		._084343c4f11eaaab-nav {
 			background: var(--background-secondary);
 		}
-		.navItem__08434 {
+		._084343c4f11eaaab-navItem {
 			color: var(--text-normal);
 		}
 
-		.diversitySelectorOptions_a45a2a {
+		.a45a2a5d0f4caddc-diversitySelectorOptions {
 			background: var(--background-secondary);
 		}
 	}

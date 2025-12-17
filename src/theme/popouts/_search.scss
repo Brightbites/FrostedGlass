@@ -1,23 +1,23 @@
 #app-mount {
-	.container__55c99 {
+	._55c999adcf6db265-container {
 		background: transparent;
 		box-shadow: none;
-		.displayedNick__56fec {
+		._56fec8e8b8048fe0-displayedNick {
 			color: var(--text-normal);
 		}
-		.displayUsername__56fec {
+		._56fec8e8b8048fe0-displayUsername {
 			color: var(--text-muted);
 		}
-		.option__56fec {
-			.content__56fec {
+		._56fec8e8b8048fe0-option {
+			._56fec8e8b8048fe0-content {
 				--webkit-mask-image: linear-gradient(90deg, white, white 95%, transparent);
 				mask-image: linear-gradient(90deg, white, white 95%, transparent);
 			}
-			.plusIcon__56fec {
+			._56fec8e8b8048fe0-plusIcon {
 				color: var(--text-normal);
 			}
 			&:hover {
-				.content__56fec {
+				._56fec8e8b8048fe0-content {
 					--webkit-mask-image: linear-gradient(90deg, white, white 87%, transparent 92%, transparent);
 					mask-image: linear-gradient(90deg, white, white 87%, transparent 92%, transparent);
 				}
@@ -52,11 +52,11 @@
 			background: transparent;
 		}
 	}
-	.searchAnswer_bd8186 {
+	.bd818628221af7aa-searchAnswer {
 		background: var(--foreground);
 		margin-left: 0;
 	}
-	.searchFilter_bd8186 {
+	.bd818628221af7aa-searchFilter {
 		background: var(--foreground);
 	}
 }
